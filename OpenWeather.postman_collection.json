@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "de19c41c-ab6b-4a08-80da-66513d13dd4d",
+		"name": "OpenWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29056085"
+	},
+	"item": [
+		{
+			"name": "Current weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=a4b28b0e616eb6485748d980f95fd661",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bangalore"
+						},
+						{
+							"key": "appid",
+							"value": "a4b28b0e616eb6485748d980f95fd661"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Current weather",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=a4b28b0e616eb6485748d980f95fd661",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "bangalore"
+						},
+						{
+							"key": "appid",
+							"value": "a4b28b0e616eb6485748d980f95fd661"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
